@@ -1,0 +1,8 @@
+/.wordpress-org
+/.git
+/node_modules
+/tests
+/package-lock.json
+/.distignore
+/DEVELOPMENT.md
+/.eslintrc.js

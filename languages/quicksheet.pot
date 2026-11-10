@@ -1,0 +1,1668 @@
+# Copyright (C) 2026 WPBrand Digital
+# This file is distributed under the GPLv2 or later.
+msgid ""
+msgstr ""
+"Project-Id-Version: QuickSheet – Send Form Submissions to Google Sheets & Apps 1.0.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/quicksheet\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2026-11-10T17:45:47+00:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.12.0\n"
+"X-Domain: quicksheet\n"
+
+#. Plugin Name of the plugin
+#: quicksheet.php
+msgid "QuickSheet – Send Form Submissions to Google Sheets & Apps"
+msgstr ""
+
+#. Description of the plugin
+#: quicksheet.php
+msgid "Connect Contact Form 7, WPForms and Elementor Forms to Google Sheets, WhatsApp, Discord and Facebook Pages. Map fields, add conditions and track every submission."
+msgstr ""
+
+#. Author of the plugin
+#: quicksheet.php
+msgid "WPBrand Digital"
+msgstr ""
+
+#. Author URI of the plugin
+#: quicksheet.php
+msgid "https://wpbranddigital.org"
+msgstr ""
+
+#: includes/actions/class-action.php:92
+msgid "This app does not use accounts."
+msgstr ""
+
+#. translators: %s: app name
+#: includes/actions/class-action.php:162
+#, php-format
+msgid "The %s account for this integration was removed. Edit the integration and choose an account."
+msgstr ""
+
+#. translators: %s: app name
+#: includes/actions/class-action.php:177
+#, php-format
+msgid "Please choose a %s account."
+msgstr ""
+
+#. translators: %d: HTTP status code
+#: includes/actions/class-action.php:228
+#, php-format
+msgid "Request failed (HTTP %d)."
+msgstr ""
+
+#: includes/actions/class-discord.php:33
+msgid "Post submissions to a Discord channel."
+msgstr ""
+
+#: includes/actions/class-discord.php:51
+msgid "Webhook URL"
+msgstr ""
+
+#: includes/actions/class-discord.php:54
+msgid "Discord → Server Settings → Integrations → Webhooks → New Webhook → Copy Webhook URL."
+msgstr ""
+
+#: includes/actions/class-discord.php:78
+msgid "Enter a valid Discord webhook URL."
+msgstr ""
+
+#: includes/actions/class-discord.php:84
+msgid "Discord webhook"
+msgstr ""
+
+#: includes/actions/class-discord.php:106
+#: includes/actions/class-whatsapp.php:111
+msgid "Write the message to send."
+msgstr ""
+
+#: includes/actions/class-discord.php:146
+msgid "The saved Discord webhook URL is invalid."
+msgstr ""
+
+#. translators: %s: Discord message ID
+#: includes/actions/class-discord.php:162
+#, php-format
+msgid "Message posted to Discord (ID %s)."
+msgstr ""
+
+#: includes/actions/class-facebook-page.php:31
+msgid "Publish a post on your Facebook Page."
+msgstr ""
+
+#: includes/actions/class-facebook-page.php:44
+msgid "Page ID"
+msgstr ""
+
+#: includes/actions/class-facebook-page.php:47
+msgid "Your Page → About → Page transparency, or Meta Business Suite → Settings."
+msgstr ""
+
+#: includes/actions/class-facebook-page.php:51
+msgid "Page access token"
+msgstr ""
+
+#: includes/actions/class-facebook-page.php:54
+msgid "A long-lived Page token with pages_manage_posts and pages_read_engagement."
+msgstr ""
+
+#: includes/actions/class-facebook-page.php:62
+msgid "Enter a valid Page ID and access token."
+msgstr ""
+
+#: includes/actions/class-facebook-page.php:87
+msgid "Write the post text."
+msgstr ""
+
+#: includes/actions/class-facebook-page.php:114
+msgid "The saved Facebook Page ID is invalid."
+msgstr ""
+
+#. translators: %s: post ID
+#: includes/actions/class-facebook-page.php:124
+#, php-format
+msgid "Posted to Facebook Page (post %s)."
+msgstr ""
+
+#: includes/actions/class-google-sheets.php:32
+msgid "Add a new row to a spreadsheet for every submission."
+msgstr ""
+
+#: includes/actions/class-google-sheets.php:53
+msgid "Please select a spreadsheet and a sheet tab."
+msgstr ""
+
+#: includes/actions/class-google-sheets.php:56
+msgid "Map at least one column."
+msgstr ""
+
+#. translators: %s: sheet range, e.g. Sheet1!A5:D5
+#: includes/actions/class-google-sheets.php:111
+#, php-format
+msgid "Row added (%s)."
+msgstr ""
+
+#: includes/actions/class-whatsapp.php:31
+msgid "Send a WhatsApp message to you or to the person who submitted the form."
+msgstr ""
+
+#: includes/actions/class-whatsapp.php:49
+msgid "Phone number ID"
+msgstr ""
+
+#: includes/actions/class-whatsapp.php:52
+msgid "Meta for Developers → your app → WhatsApp → API Setup."
+msgstr ""
+
+#: includes/actions/class-whatsapp.php:56
+msgid "Permanent access token"
+msgstr ""
+
+#: includes/actions/class-whatsapp.php:59
+msgid "Create a System User token with the whatsapp_business_messaging permission."
+msgstr ""
+
+#: includes/actions/class-whatsapp.php:67
+msgid "Enter a valid phone number ID and access token."
+msgstr ""
+
+#: includes/actions/class-whatsapp.php:108
+msgid "Enter the recipient phone number or choose a phone field."
+msgstr ""
+
+#: includes/actions/class-whatsapp.php:114
+msgid "Enter the approved template name."
+msgstr ""
+
+#. translators: %s: submitted phone number
+#: includes/actions/class-whatsapp.php:185
+#, php-format
+msgid "Invalid recipient phone number: \"%s\". Use the international format, e.g. +8801712345678."
+msgstr ""
+
+#: includes/actions/class-whatsapp.php:192
+msgid "The saved WhatsApp phone number ID is invalid."
+msgstr ""
+
+#. translators: %s: phone number
+#: includes/actions/class-whatsapp.php:202
+#, php-format
+msgid "WhatsApp message sent to +%s."
+msgstr ""
+
+#: includes/class-admin.php:38
+#: includes/class-admin.php:39
+msgid "QuickSheet"
+msgstr ""
+
+#: includes/class-admin.php:48
+#: includes/class-admin.php:77
+#: src/index.jsx:19
+#: src/pages/Dashboard.jsx:85
+msgid "Dashboard"
+msgstr ""
+
+#: includes/class-admin.php:49
+#: src/index.jsx:20
+#: src/pages/Integrations.jsx:51
+msgid "Integrations"
+msgstr ""
+
+#: includes/class-admin.php:50
+#: src/index.jsx:21
+#: src/pages/Apps.jsx:74
+#: src/pages/Settings.jsx:88
+msgid "Apps"
+msgstr ""
+
+#: includes/class-admin.php:51
+#: src/index.jsx:22
+msgid "Logs"
+msgstr ""
+
+#: includes/class-admin.php:52
+#: src/index.jsx:23
+#: src/pages/Settings.jsx:87
+msgid "Settings"
+msgstr ""
+
+#: includes/class-admin.php:126
+msgid "Loading QuickSheet…"
+msgstr ""
+
+#: includes/class-dispatcher.php:143
+msgid "Yes"
+msgstr ""
+
+#: includes/class-dispatcher.php:143
+msgid "No"
+msgstr ""
+
+#: includes/class-dispatcher.php:177
+msgid "The app for this integration is not available."
+msgstr ""
+
+#: includes/class-dispatcher.php:198
+msgid "Sent."
+msgstr ""
+
+#: includes/class-dispatcher.php:249
+msgid "Log entry not found."
+msgstr ""
+
+#: includes/class-dispatcher.php:252
+msgid "This entry was already sent."
+msgstr ""
+
+#: includes/class-dispatcher.php:256
+#: includes/class-dispatcher.php:257
+msgid "The integration for this entry was deleted."
+msgstr ""
+
+#: includes/class-feeds.php:156
+msgid "Please choose an action app."
+msgstr ""
+
+#: includes/class-feeds.php:192
+msgid "Please select a trigger form."
+msgstr ""
+
+#. translators: 1: form title, 2: app name
+#: includes/class-feeds.php:212
+#, php-format
+msgid "%1$s → %2$s"
+msgstr ""
+
+#: includes/class-feeds.php:213
+msgid "Untitled integration"
+msgstr ""
+
+#: includes/class-feeds.php:219
+#: includes/class-feeds.php:227
+msgid "Could not save the integration. Please try again."
+msgstr ""
+
+#: includes/class-google-client.php:173
+msgid "Google did not return a refresh token. Remove the app from your Google account permissions and try again."
+msgstr ""
+
+#: includes/class-google-client.php:198
+msgid "Unknown token error."
+msgstr ""
+
+#: includes/class-google-client.php:230
+msgid "Google account is not connected."
+msgstr ""
+
+#: includes/class-google-client.php:254
+msgid "Google access was revoked or expired. Please reconnect."
+msgstr ""
+
+#: includes/class-oauth-handler.php:100
+#: includes/class-oauth-handler.php:121
+msgid "You are not allowed to do this."
+msgstr ""
+
+#: includes/class-oauth-handler.php:105
+msgid "Save your Client ID and Client Secret first."
+msgstr ""
+
+#: includes/class-oauth-handler.php:135
+msgid "Invalid or expired authorization request. Please try again."
+msgstr ""
+
+#: includes/class-rest-api.php:308
+msgid "Not found."
+msgstr ""
+
+#: includes/class-rest-api.php:334
+msgid "Enter a valid Client ID."
+msgstr ""
+
+#: includes/class-rest-api.php:393
+msgid "Unknown form source."
+msgstr ""
+
+#. translators: %s: plugin name
+#: includes/class-rest-api.php:397
+#, php-format
+msgid "%s is not active."
+msgstr ""
+
+#: includes/class-rest-api.php:458
+msgid "Unknown app."
+msgstr ""
+
+#: includes/class-rest-api.php:469
+msgid "Could not save the account. Please try again."
+msgstr ""
+
+#. translators: %d: number of integrations
+#: includes/class-rest-api.php:517
+#, php-format
+msgid "This account is used by %d integration. Change or delete it first."
+msgid_plural "This account is used by %d integrations. Change or delete them first."
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/class-rest-api.php:544
+msgid "Title is required."
+msgstr ""
+
+#. translators: %s: field label
+#: includes/class-rest-api.php:699
+#, php-format
+msgid "Test %s"
+msgstr ""
+
+#: includes/class-rest-api.php:720
+msgid "Nothing to send – check the mapping or message."
+msgstr ""
+
+#: includes/integrations/class-elementor-forms.php:82
+msgid "New Form"
+msgstr ""
+
+#: includes/integrations/class-wpforms.php:102
+msgid "First"
+msgstr ""
+
+#: includes/integrations/class-wpforms.php:103
+msgid "Last"
+msgstr ""
+
+#: src/api.js:52
+msgid "Something went wrong."
+msgstr ""
+
+#. translators: %s: app name
+#: src/components/AccountModal.jsx:32
+#, js-format
+msgid "Connect %s"
+msgstr ""
+
+#: src/components/AccountModal.jsx:52
+msgid "Account name (optional)"
+msgstr ""
+
+#: src/components/AccountModal.jsx:52
+msgid "Defaults to the name returned by the provider."
+msgstr ""
+
+#: src/components/AccountModal.jsx:58
+msgid "How to get these credentials"
+msgstr ""
+
+#: src/components/AccountModal.jsx:62
+#: src/components/GoogleAccount.jsx:104
+#: src/components/ui.jsx:214
+#: src/pages/Editor.jsx:581
+msgid "Cancel"
+msgstr ""
+
+#: src/components/AccountModal.jsx:63
+msgid "Verify & save"
+msgstr ""
+
+#: src/components/GoogleAccount.jsx:11
+msgid "Open the <console>Google Cloud Console</console> and create (or select) a project."
+msgstr ""
+
+#: src/components/GoogleAccount.jsx:12
+msgid "Enable the <sheets>Google Sheets API</sheets> and the <drive>Google Drive API</drive>."
+msgstr ""
+
+#: src/components/GoogleAccount.jsx:13
+msgid "Under <strong>OAuth consent screen</strong>, choose <em>External</em>, fill in the app name and your email, and add yourself as a test user."
+msgstr ""
+
+#: src/components/GoogleAccount.jsx:14
+msgid "Go to <creds>Credentials</creds> → <strong>Create credentials</strong> → <strong>OAuth client ID</strong> → <em>Web application</em>."
+msgstr ""
+
+#: src/components/GoogleAccount.jsx:15
+msgid "Paste the <strong>Authorized redirect URI</strong> shown here, click Create, and copy the Client ID and Client Secret into the form."
+msgstr ""
+
+#: src/components/GoogleAccount.jsx:33
+#: src/components/GoogleAccount.jsx:61
+msgid "Google Sheets"
+msgstr ""
+
+#: src/components/GoogleAccount.jsx:44
+msgid "Credentials saved"
+msgstr ""
+
+#. translators: %s: error message from Google
+#: src/components/GoogleAccount.jsx:56
+#, js-format
+msgid "Google authorization failed: %s"
+msgstr ""
+
+#: src/components/GoogleAccount.jsx:57
+#: src/pages/Dashboard.jsx:75
+msgid "Google account connected successfully."
+msgstr ""
+
+#: src/components/GoogleAccount.jsx:62
+msgid "Uses your own Google Cloud OAuth app, so data goes straight from your site to Google."
+msgstr ""
+
+#: src/components/GoogleAccount.jsx:63
+#: src/pages/Dashboard.jsx:123
+#: src/pages/Editor.jsx:539
+msgid "Connected"
+msgstr ""
+
+#: src/components/GoogleAccount.jsx:63
+msgid "Not authorized"
+msgstr ""
+
+#: src/components/GoogleAccount.jsx:63
+msgid "Not configured"
+msgstr ""
+
+#: src/components/GoogleAccount.jsx:69
+msgid "Google account"
+msgstr ""
+
+#. translators: %s: date and time the account was connected
+#: src/components/GoogleAccount.jsx:70
+#, js-format
+msgid "Connected %s"
+msgstr ""
+
+#: src/components/GoogleAccount.jsx:73
+#: src/pages/Dashboard.jsx:76
+msgid "Reconnect"
+msgstr ""
+
+#: src/components/GoogleAccount.jsx:74
+#: src/components/GoogleAccount.jsx:120
+msgid "Disconnect"
+msgstr ""
+
+#: src/components/GoogleAccount.jsx:79
+msgid "Credentials saved. Authorize QuickSheet to read your spreadsheet list and add rows."
+msgstr ""
+
+#: src/components/GoogleAccount.jsx:82
+msgid "Connect with Google"
+msgstr ""
+
+#: src/components/GoogleAccount.jsx:93
+msgid "Authorized redirect URI"
+msgstr ""
+
+#: src/components/GoogleAccount.jsx:93
+msgid "Add this exact URL to your OAuth client."
+msgstr ""
+
+#: src/components/GoogleAccount.jsx:96
+msgid "Client ID"
+msgstr ""
+
+#: src/components/GoogleAccount.jsx:99
+msgid "Client Secret"
+msgstr ""
+
+#: src/components/GoogleAccount.jsx:99
+msgid "Leave blank to keep the saved secret. Stored encrypted."
+msgstr ""
+
+#: src/components/GoogleAccount.jsx:99
+msgid "Stored encrypted in your database."
+msgstr ""
+
+#: src/components/GoogleAccount.jsx:103
+msgid "Save credentials"
+msgstr ""
+
+#: src/components/GoogleAccount.jsx:112
+msgid "Change OAuth credentials"
+msgstr ""
+
+#: src/components/GoogleAccount.jsx:119
+msgid "Disconnect Google?"
+msgstr ""
+
+#: src/components/GoogleAccount.jsx:127
+msgid "Google account disconnected"
+msgstr ""
+
+#: src/components/GoogleAccount.jsx:135
+msgid "Google Sheets integrations will stop sending rows until you reconnect. Failed submissions are kept in the log so you can retry them later."
+msgstr ""
+
+#: src/components/SpreadsheetPicker.jsx:58
+msgid "That doesn't look like a Google Sheets URL or ID."
+msgstr ""
+
+#: src/components/SpreadsheetPicker.jsx:79
+msgid "Select a spreadsheet…"
+msgstr ""
+
+#: src/components/SpreadsheetPicker.jsx:83
+msgid "Choose spreadsheet"
+msgstr ""
+
+#: src/components/SpreadsheetPicker.jsx:85
+msgid "Browse"
+msgstr ""
+
+#: src/components/SpreadsheetPicker.jsx:85
+msgid "Paste URL"
+msgstr ""
+
+#: src/components/SpreadsheetPicker.jsx:85
+msgid "Create new"
+msgstr ""
+
+#: src/components/SpreadsheetPicker.jsx:92
+msgid "Search spreadsheets…"
+msgstr ""
+
+#: src/components/SpreadsheetPicker.jsx:94
+#: src/pages/Editor.jsx:479
+msgid "Loading…"
+msgstr ""
+
+#: src/components/SpreadsheetPicker.jsx:96
+msgid "No spreadsheets found."
+msgstr ""
+
+#: src/components/SpreadsheetPicker.jsx:114
+msgid "Use this spreadsheet"
+msgstr ""
+
+#: src/components/SpreadsheetPicker.jsx:120
+msgid "Spreadsheet name, e.g. Website leads"
+msgstr ""
+
+#: src/components/SpreadsheetPicker.jsx:122
+msgid "Create in Google Drive"
+msgstr ""
+
+#: src/components/TagInput.jsx:6
+msgid "All fields (Label: value)"
+msgstr ""
+
+#: src/components/TagInput.jsx:7
+msgid "Submission date & time"
+msgstr ""
+
+#: src/components/TagInput.jsx:8
+msgid "Submission date"
+msgstr ""
+
+#: src/components/TagInput.jsx:9
+msgid "Submission time"
+msgstr ""
+
+#: src/components/TagInput.jsx:10
+msgid "Form title"
+msgstr ""
+
+#: src/components/TagInput.jsx:11
+msgid "Entry ID"
+msgstr ""
+
+#: src/components/TagInput.jsx:12
+#: src/pages/Editor.jsx:349
+msgid "Page URL"
+msgstr ""
+
+#: src/components/TagInput.jsx:13
+msgid "Visitor IP"
+msgstr ""
+
+#: src/components/TagInput.jsx:14
+msgid "Browser / user agent"
+msgstr ""
+
+#: src/components/TagInput.jsx:15
+#: src/pages/Editor.jsx:350
+msgid "Logged-in user email"
+msgstr ""
+
+#: src/components/TagInput.jsx:16
+msgid "Site name"
+msgstr ""
+
+#: src/components/TagInput.jsx:17
+msgid "Site URL"
+msgstr ""
+
+#: src/components/TagInput.jsx:22
+msgid "+ Insert field"
+msgstr ""
+
+#: src/components/TagInput.jsx:28
+msgid "Insert a form field or smart tag"
+msgstr ""
+
+#: src/components/TagInput.jsx:32
+#: src/pages/Editor.jsx:67
+msgid "Form fields"
+msgstr ""
+
+#: src/components/TagInput.jsx:37
+#: src/pages/Editor.jsx:71
+msgid "Smart tags"
+msgstr ""
+
+#: src/components/ui.jsx:78
+#: src/pages/Dashboard.jsx:103
+#: src/pages/Logs.jsx:39
+#: src/pages/Logs.jsx:59
+msgid "Sent"
+msgstr ""
+
+#: src/components/ui.jsx:79
+#: src/pages/Dashboard.jsx:104
+#: src/pages/Logs.jsx:40
+msgid "Failed"
+msgstr ""
+
+#: src/components/ui.jsx:80
+#: src/pages/Logs.jsx:41
+msgid "Retrying"
+msgstr ""
+
+#: src/components/ui.jsx:123
+msgid "Dismiss"
+msgstr ""
+
+#: src/components/ui.jsx:166
+msgid "Copy this URL:"
+msgstr ""
+
+#: src/components/ui.jsx:175
+msgid "Copied"
+msgstr ""
+
+#: src/components/ui.jsx:175
+msgid "Copy"
+msgstr ""
+
+#: src/components/ui.jsx:209
+#: src/pages/Integrations.jsx:115
+msgid "Delete"
+msgstr ""
+
+#: src/components/ui.jsx:243
+msgid "just now"
+msgstr ""
+
+#. translators: %d: number of minutes
+#: src/components/ui.jsx:244
+#, js-format
+msgid "%d min ago"
+msgstr ""
+
+#. translators: %d: number of hours
+#: src/components/ui.jsx:245
+#, js-format
+msgid "%d h ago"
+msgstr ""
+
+#. translators: %d: number of days
+#: src/components/ui.jsx:246
+#, js-format
+msgid "%d d ago"
+msgstr ""
+
+#: src/index.jsx:83
+#: src/pages/Editor.jsx:492
+#: src/pages/Editor.jsx:583
+msgid "Create integration"
+msgstr ""
+
+#: src/pages/Apps.jsx:10
+msgid "Spreadsheets"
+msgstr ""
+
+#: src/pages/Apps.jsx:11
+msgid "Messaging"
+msgstr ""
+
+#: src/pages/Apps.jsx:12
+msgid "Social media"
+msgstr ""
+
+#. translators: %d: number of connected accounts
+#: src/pages/Apps.jsx:23
+#, js-format
+msgid "%d connected"
+msgstr ""
+
+#: src/pages/Apps.jsx:23
+#: src/pages/Editor.jsx:539
+msgid "Not connected"
+msgstr ""
+
+#. translators: %s: account name
+#: src/pages/Apps.jsx:33
+#, js-format
+msgid "Check %s"
+msgstr ""
+
+#: src/pages/Apps.jsx:33
+msgid "Check connection"
+msgstr ""
+
+#. translators: %s: account name
+#: src/pages/Apps.jsx:34
+#, js-format
+msgid "Remove %s"
+msgstr ""
+
+#: src/pages/Apps.jsx:40
+msgid "Add another"
+msgstr ""
+
+#: src/pages/Apps.jsx:40
+#: src/pages/Dashboard.jsx:123
+msgid "Connect"
+msgstr ""
+
+#: src/pages/Apps.jsx:41
+msgid "Setup guide"
+msgstr ""
+
+#. translators: %s: account name
+#: src/pages/Apps.jsx:57
+#, js-format
+msgid "%s is working"
+msgstr ""
+
+#: src/pages/Apps.jsx:65
+msgid "Loading apps…"
+msgstr ""
+
+#: src/pages/Apps.jsx:75
+msgid "Connect the apps your integrations send data to. Credentials are verified with the provider and stored encrypted."
+msgstr ""
+
+#. translators: %s: account name
+#: src/pages/Apps.jsx:91
+#: src/pages/Editor.jsx:443
+#, js-format
+msgid "%s connected"
+msgstr ""
+
+#: src/pages/Apps.jsx:96
+msgid "Remove account?"
+msgstr ""
+
+#: src/pages/Apps.jsx:97
+msgid "Remove"
+msgstr ""
+
+#: src/pages/Apps.jsx:102
+msgid "Account removed"
+msgstr ""
+
+#: src/pages/Apps.jsx:111
+msgid "and its saved credentials will be deleted from this site."
+msgstr ""
+
+#: src/pages/Dashboard.jsx:18
+msgid "Deliveries per day over the last 14 days"
+msgstr ""
+
+#. translators: 1: date, 2: number sent, 3: number failed
+#: src/pages/Dashboard.jsx:23
+#, js-format
+msgid "%1$s: %2$d sent, %3$d failed"
+msgstr ""
+
+#: src/pages/Dashboard.jsx:38
+msgid "Connect an app"
+msgstr ""
+
+#: src/pages/Dashboard.jsx:38
+msgid "Google Sheets, WhatsApp, Discord or a Facebook Page."
+msgstr ""
+
+#: src/pages/Dashboard.jsx:38
+msgid "Open apps"
+msgstr ""
+
+#: src/pages/Dashboard.jsx:39
+msgid "Activate a form plugin"
+msgstr ""
+
+#: src/pages/Dashboard.jsx:39
+msgid "Contact Form 7, WPForms or Elementor Pro."
+msgstr ""
+
+#: src/pages/Dashboard.jsx:39
+#: src/pages/Dashboard.jsx:114
+msgid "Install"
+msgstr ""
+
+#: src/pages/Dashboard.jsx:40
+#: src/pages/Integrations.jsx:61
+msgid "Create your first integration"
+msgstr ""
+
+#: src/pages/Dashboard.jsx:40
+msgid "Pick a form, an app, and map the fields."
+msgstr ""
+
+#: src/pages/Dashboard.jsx:40
+msgid "Create"
+msgstr ""
+
+#: src/pages/Dashboard.jsx:45
+msgid "Get started"
+msgstr ""
+
+#. translators: %d: number of completed steps
+#: src/pages/Dashboard.jsx:45
+#, js-format
+msgid "%d of 3 steps complete"
+msgstr ""
+
+#: src/pages/Dashboard.jsx:65
+msgid "Loading dashboard…"
+msgstr ""
+
+#. translators: %d: number of failed submissions
+#: src/pages/Dashboard.jsx:79
+#, js-format
+msgid "%d submission(s) could not be delivered."
+msgstr ""
+
+#: src/pages/Dashboard.jsx:79
+msgid "Review and retry"
+msgstr ""
+
+#: src/pages/Dashboard.jsx:86
+msgid "Every form submission, delivered to your sheets, chats and pages."
+msgstr ""
+
+#: src/pages/Dashboard.jsx:93
+msgid "Active integrations"
+msgstr ""
+
+#: src/pages/Dashboard.jsx:94
+msgid "Delivered today"
+msgstr ""
+
+#: src/pages/Dashboard.jsx:95
+msgid "Success rate (30 days)"
+msgstr ""
+
+#: src/pages/Dashboard.jsx:96
+msgid "Failed (30 days)"
+msgstr ""
+
+#: src/pages/Dashboard.jsx:100
+msgid "Last 14 days"
+msgstr ""
+
+#: src/pages/Dashboard.jsx:100
+msgid "Deliveries across all apps"
+msgstr ""
+
+#: src/pages/Dashboard.jsx:108
+msgid "Triggers & apps"
+msgstr ""
+
+#: src/pages/Dashboard.jsx:108
+msgid "What's connected on this site"
+msgstr ""
+
+#: src/pages/Dashboard.jsx:114
+#: src/pages/Editor.jsx:495
+#: src/pages/Editor.jsx:512
+#: src/pages/Integrations.jsx:76
+msgid "Active"
+msgstr ""
+
+#: src/pages/Dashboard.jsx:114
+msgid "Not installed"
+msgstr ""
+
+#. translators: %d: number of delivered submissions
+#: src/pages/Dashboard.jsx:124
+#, js-format
+msgid "%d sent"
+msgstr ""
+
+#: src/pages/Dashboard.jsx:131
+msgid "Recent activity"
+msgstr ""
+
+#: src/pages/Dashboard.jsx:131
+msgid "View all logs"
+msgstr ""
+
+#: src/pages/Dashboard.jsx:133
+msgid "No submissions yet. Once a form with an active integration is submitted, it shows up here."
+msgstr ""
+
+#. translators: %d: integration ID
+#: src/pages/Dashboard.jsx:140
+#: src/pages/Logs.jsx:140
+#, js-format
+msgid "Integration #%d"
+msgstr ""
+
+#: src/pages/Editor.jsx:35
+msgid "is"
+msgstr ""
+
+#: src/pages/Editor.jsx:36
+msgid "is not"
+msgstr ""
+
+#: src/pages/Editor.jsx:37
+msgid "contains"
+msgstr ""
+
+#: src/pages/Editor.jsx:38
+msgid "does not contain"
+msgstr ""
+
+#: src/pages/Editor.jsx:39
+msgid "starts with"
+msgstr ""
+
+#: src/pages/Editor.jsx:40
+msgid "is empty"
+msgstr ""
+
+#: src/pages/Editor.jsx:41
+msgid "is not empty"
+msgstr ""
+
+#: src/pages/Editor.jsx:42
+msgid "greater than"
+msgstr ""
+
+#: src/pages/Editor.jsx:43
+msgid "less than"
+msgstr ""
+
+#: src/pages/Editor.jsx:65
+msgid "— Leave empty —"
+msgstr ""
+
+#: src/pages/Editor.jsx:74
+msgid "Custom value / combine…"
+msgstr ""
+
+#. translators: %d: number of matched columns
+#: src/pages/Editor.jsx:134
+#, js-format
+msgid "Matched %d column(s)"
+msgstr ""
+
+#: src/pages/Editor.jsx:134
+msgid "No matching column names found"
+msgstr ""
+
+#: src/pages/Editor.jsx:138
+msgid "Submitted At"
+msgstr ""
+
+#: src/pages/Editor.jsx:148
+msgid "Header row created and fields mapped"
+msgstr ""
+
+#: src/pages/Editor.jsx:157
+msgid "Google isn't connected yet."
+msgstr ""
+
+#: src/pages/Editor.jsx:157
+msgid "Connect Google Sheets in Apps"
+msgstr ""
+
+#: src/pages/Editor.jsx:157
+msgid "first."
+msgstr ""
+
+#: src/pages/Editor.jsx:166
+#: src/pages/Integrations.jsx:103
+msgid "Spreadsheet"
+msgstr ""
+
+#: src/pages/Editor.jsx:172
+msgid "Sheet tab"
+msgstr ""
+
+#: src/pages/Editor.jsx:186
+msgid "Field mapping"
+msgstr ""
+
+#: src/pages/Editor.jsx:188
+msgid "Open sheet"
+msgstr ""
+
+#: src/pages/Editor.jsx:189
+msgid "Reload headers"
+msgstr ""
+
+#: src/pages/Editor.jsx:190
+msgid "Auto-map"
+msgstr ""
+
+#: src/pages/Editor.jsx:193
+msgid "Reading sheet headers…"
+msgstr ""
+
+#: src/pages/Editor.jsx:199
+msgid "This tab has no header row."
+msgstr ""
+
+#: src/pages/Editor.jsx:200
+msgid "Create one from your form fields and everything gets mapped automatically — or map columns manually below."
+msgstr ""
+
+#: src/pages/Editor.jsx:202
+msgid "Create header row"
+msgstr ""
+
+#: src/pages/Editor.jsx:208
+msgid "Col"
+msgstr ""
+
+#: src/pages/Editor.jsx:208
+msgid "Sheet column"
+msgstr ""
+
+#: src/pages/Editor.jsx:208
+#: src/pages/Editor.jsx:356
+msgid "Value"
+msgstr ""
+
+#. translators: %s: spreadsheet column letter, e.g. A
+#: src/pages/Editor.jsx:214
+#, js-format
+msgid "Column %s"
+msgstr ""
+
+#: src/pages/Editor.jsx:223
+msgid "Add column"
+msgstr ""
+
+#. translators: %d: number of mapped columns
+#: src/pages/Editor.jsx:224
+#, js-format
+msgid "%d column(s) mapped"
+msgstr ""
+
+#: src/pages/Editor.jsx:237
+#: src/pages/Editor.jsx:281
+msgid "Message"
+msgstr ""
+
+#: src/pages/Editor.jsx:237
+msgid "Markdown is supported. Max 2,000 characters (4,096 inside an embed). @mentions are disabled for safety."
+msgstr ""
+
+#: src/pages/Editor.jsx:241
+msgid "Bot name (optional)"
+msgstr ""
+
+#: src/pages/Editor.jsx:241
+msgid "Overrides the webhook's default name."
+msgstr ""
+
+#: src/pages/Editor.jsx:244
+msgid "Format"
+msgstr ""
+
+#: src/pages/Editor.jsx:245
+msgid "Send as rich embed card"
+msgstr ""
+
+#: src/pages/Editor.jsx:250
+msgid "Embed title"
+msgstr ""
+
+#: src/pages/Editor.jsx:253
+msgid "Accent color"
+msgstr ""
+
+#: src/pages/Editor.jsx:265
+msgid "Send to"
+msgstr ""
+
+#: src/pages/Editor.jsx:265
+msgid "Your own number for lead alerts, or a phone field to message the person who submitted. Use international format, e.g. +8801712345678."
+msgstr ""
+
+#: src/pages/Editor.jsx:268
+msgid "Use a form field"
+msgstr ""
+
+#: src/pages/Editor.jsx:271
+msgid "Message type"
+msgstr ""
+
+#: src/pages/Editor.jsx:273
+msgid "Text message"
+msgstr ""
+
+#: src/pages/Editor.jsx:273
+msgid "Approved template"
+msgstr ""
+
+#: src/pages/Editor.jsx:280
+msgid "WhatsApp only delivers free-form text if the recipient messaged your business number in the last 24 hours. To message new leads first, use an approved template."
+msgstr ""
+
+#: src/pages/Editor.jsx:288
+msgid "Template name"
+msgstr ""
+
+#: src/pages/Editor.jsx:288
+msgid "Exactly as approved in WhatsApp Manager."
+msgstr ""
+
+#: src/pages/Editor.jsx:291
+msgid "Language code"
+msgstr ""
+
+#: src/pages/Editor.jsx:295
+msgid "Body variables"
+msgstr ""
+
+#: src/pages/Editor.jsx:295
+msgid "Values for {{1}}, {{2}} … in your template body, in order."
+msgstr ""
+
+#: src/pages/Editor.jsx:301
+msgid "Remove variable"
+msgstr ""
+
+#: src/pages/Editor.jsx:304
+msgid "Add variable"
+msgstr ""
+
+#: src/pages/Editor.jsx:315
+msgid "Posts are public on your Page. Avoid posting personal data such as emails or phone numbers from submissions."
+msgstr ""
+
+#: src/pages/Editor.jsx:316
+msgid "Post text"
+msgstr ""
+
+#: src/pages/Editor.jsx:319
+msgid "Link (optional)"
+msgstr ""
+
+#: src/pages/Editor.jsx:319
+msgid "Adds a link preview to the post."
+msgstr ""
+
+#: src/pages/Editor.jsx:333
+msgid "Conditions"
+msgstr ""
+
+#: src/pages/Editor.jsx:333
+msgid "Optional — only run this integration when the submission matches."
+msgstr ""
+
+#: src/pages/Editor.jsx:333
+msgid "On"
+msgstr ""
+
+#: src/pages/Editor.jsx:333
+msgid "Off"
+msgstr ""
+
+#: src/pages/Editor.jsx:334
+msgid "Runs for every submission."
+msgstr ""
+
+#: src/pages/Editor.jsx:337
+msgid "Run when"
+msgstr ""
+
+#: src/pages/Editor.jsx:339
+msgid "all"
+msgstr ""
+
+#: src/pages/Editor.jsx:340
+msgid "any"
+msgstr ""
+
+#: src/pages/Editor.jsx:342
+msgid "of these rules match:"
+msgstr ""
+
+#: src/pages/Editor.jsx:347
+msgid "Field"
+msgstr ""
+
+#: src/pages/Editor.jsx:352
+msgid "Operator"
+msgstr ""
+
+#: src/pages/Editor.jsx:358
+msgid "Remove rule"
+msgstr ""
+
+#: src/pages/Editor.jsx:362
+msgid "Add rule"
+msgstr ""
+
+#: src/pages/Editor.jsx:453
+#: src/pages/Integrations.jsx:29
+msgid "Send the test WhatsApp message to which number? (international format)"
+msgstr ""
+
+#: src/pages/Editor.jsx:459
+msgid "Integration saved"
+msgstr ""
+
+#: src/pages/Editor.jsx:459
+msgid "Integration created"
+msgstr ""
+
+#: src/pages/Editor.jsx:464
+#: src/pages/Integrations.jsx:36
+msgid "Test sent"
+msgstr ""
+
+#: src/pages/Editor.jsx:491
+msgid "← Integrations"
+msgstr ""
+
+#: src/pages/Editor.jsx:492
+msgid "Edit integration"
+msgstr ""
+
+#: src/pages/Editor.jsx:495
+msgid "Paused"
+msgstr ""
+
+#: src/pages/Editor.jsx:499
+msgid "Progress"
+msgstr ""
+
+#: src/pages/Editor.jsx:500
+#: src/pages/Editor.jsx:506
+#: src/pages/Integrations.jsx:73
+msgid "Trigger"
+msgstr ""
+
+#: src/pages/Editor.jsx:500
+#: src/pages/Editor.jsx:532
+#: src/pages/Integrations.jsx:75
+msgid "Action"
+msgstr ""
+
+#: src/pages/Editor.jsx:500
+msgid "Configure"
+msgstr ""
+
+#: src/pages/Editor.jsx:506
+msgid "When this form is submitted…"
+msgstr ""
+
+#: src/pages/Editor.jsx:512
+msgid "Not active"
+msgstr ""
+
+#: src/pages/Editor.jsx:517
+msgid "Form"
+msgstr ""
+
+#. translators: %s: form plugin name
+#: src/pages/Editor.jsx:519
+#, js-format
+msgid "No forms found in %s. Create a form first, then come back."
+msgstr ""
+
+#: src/pages/Editor.jsx:522
+msgid "Select a form…"
+msgstr ""
+
+#. translators: %d: number of form fields
+#: src/pages/Editor.jsx:528
+#, js-format
+msgid "%d field(s) detected"
+msgstr ""
+
+#: src/pages/Editor.jsx:532
+msgid "…do this."
+msgstr ""
+
+#: src/pages/Editor.jsx:532
+msgid "Search apps"
+msgstr ""
+
+#. translators: %s: app name
+#: src/pages/Editor.jsx:545
+#, js-format
+msgid "%s account"
+msgstr ""
+
+#: src/pages/Editor.jsx:549
+msgid "Choose an account…"
+msgstr ""
+
+#. translators: %s: app name
+#: src/pages/Editor.jsx:552
+#, js-format
+msgid "No %s account connected yet."
+msgstr ""
+
+#: src/pages/Editor.jsx:553
+msgid "Add account"
+msgstr ""
+
+#. translators: %s: app name
+#: src/pages/Editor.jsx:561
+#, js-format
+msgid "Configure %s"
+msgstr ""
+
+#: src/pages/Editor.jsx:561
+msgid "Pick a spreadsheet and map form fields to columns."
+msgstr ""
+
+#: src/pages/Editor.jsx:561
+msgid "Compose the message. Use “Insert field” to add submitted values."
+msgstr ""
+
+#: src/pages/Editor.jsx:562
+msgid "Choose a trigger form first."
+msgstr ""
+
+#: src/pages/Editor.jsx:577
+msgid "Integration name"
+msgstr ""
+
+#: src/pages/Editor.jsx:577
+msgid "Optional — shown in the list and logs."
+msgstr ""
+
+#: src/pages/Editor.jsx:582
+msgid "Save & send test"
+msgstr ""
+
+#: src/pages/Editor.jsx:583
+msgid "Save changes"
+msgstr ""
+
+#: src/pages/Integrations.jsx:18
+msgid "Integration enabled"
+msgstr ""
+
+#: src/pages/Integrations.jsx:18
+msgid "Integration paused"
+msgstr ""
+
+#: src/pages/Integrations.jsx:44
+msgid "Loading integrations…"
+msgstr ""
+
+#: src/pages/Integrations.jsx:52
+msgid "Each integration runs one action whenever a form is submitted."
+msgstr ""
+
+#: src/pages/Integrations.jsx:60
+msgid "No integrations yet"
+msgstr ""
+
+#: src/pages/Integrations.jsx:63
+msgid "Send Contact Form 7, WPForms or Elementor submissions to Google Sheets, WhatsApp, Discord or your Facebook Page."
+msgstr ""
+
+#: src/pages/Integrations.jsx:72
+#: src/pages/Logs.jsx:124
+msgid "Integration"
+msgstr ""
+
+#: src/pages/Integrations.jsx:77
+#: src/pages/Logs.jsx:128
+msgid "Actions"
+msgstr ""
+
+#. translators: %s: relative time, e.g. 5 min ago
+#: src/pages/Integrations.jsx:85
+#, js-format
+msgid "Updated %s"
+msgstr ""
+
+#. translators: %s: sheet tab name
+#: src/pages/Integrations.jsx:107
+#, js-format
+msgid "Tab: %s"
+msgstr ""
+
+#: src/pages/Integrations.jsx:107
+msgid "Account missing"
+msgstr ""
+
+#. translators: %s: integration name
+#: src/pages/Integrations.jsx:111
+#, js-format
+msgid "Activate %s"
+msgstr ""
+
+#: src/pages/Integrations.jsx:113
+msgid "Send test data"
+msgstr ""
+
+#: src/pages/Integrations.jsx:113
+msgid "Test"
+msgstr ""
+
+#: src/pages/Integrations.jsx:114
+msgid "Edit"
+msgstr ""
+
+#: src/pages/Integrations.jsx:127
+msgid "Delete integration?"
+msgstr ""
+
+#: src/pages/Integrations.jsx:132
+msgid "Integration deleted"
+msgstr ""
+
+#: src/pages/Integrations.jsx:141
+msgid "will stop running. Data already sent is not affected."
+msgstr ""
+
+#: src/pages/Logs.jsx:21
+msgid "empty"
+msgstr ""
+
+#: src/pages/Logs.jsx:38
+msgid "All"
+msgstr ""
+
+#: src/pages/Logs.jsx:59
+msgid "Retry failed"
+msgstr ""
+
+#. translators: 1: number sent, 2: number still failing
+#: src/pages/Logs.jsx:72
+#, js-format
+msgid "%1$d sent, %2$d still failing"
+msgstr ""
+
+#: src/pages/Logs.jsx:94
+msgid "Submission logs"
+msgstr ""
+
+#: src/pages/Logs.jsx:95
+msgid "Every delivery attempt to every app. Failed entries are kept until they're sent, so no lead gets lost."
+msgstr ""
+
+#: src/pages/Logs.jsx:98
+msgid "Retry all failed"
+msgstr ""
+
+#: src/pages/Logs.jsx:99
+msgid "Clear logs"
+msgstr ""
+
+#: src/pages/Logs.jsx:115
+msgid "Loading logs…"
+msgstr ""
+
+#: src/pages/Logs.jsx:117
+msgid "Nothing here yet"
+msgstr ""
+
+#: src/pages/Logs.jsx:117
+msgid "Submissions from connected forms will appear here."
+msgstr ""
+
+#: src/pages/Logs.jsx:123
+msgid "Status"
+msgstr ""
+
+#: src/pages/Logs.jsx:125
+msgid "Details"
+msgstr ""
+
+#: src/pages/Logs.jsx:126
+msgid "Attempts"
+msgstr ""
+
+#: src/pages/Logs.jsx:127
+msgid "Time"
+msgstr ""
+
+#: src/pages/Logs.jsx:149
+msgid "Data"
+msgstr ""
+
+#: src/pages/Logs.jsx:150
+msgid "Retry"
+msgstr ""
+
+#: src/pages/Logs.jsx:151
+msgid "Delete log"
+msgstr ""
+
+#: src/pages/Logs.jsx:171
+msgid "Previous"
+msgstr ""
+
+#. translators: 1: current page, 2: total pages, 3: total entries
+#: src/pages/Logs.jsx:172
+#, js-format
+msgid "Page %1$d of %2$d · %3$d entries"
+msgstr ""
+
+#: src/pages/Logs.jsx:173
+msgid "Next"
+msgstr ""
+
+#: src/pages/Logs.jsx:179
+msgid "Clear logs?"
+msgstr ""
+
+#: src/pages/Logs.jsx:180
+msgid "Clear filtered logs"
+msgstr ""
+
+#: src/pages/Logs.jsx:180
+msgid "Clear all logs"
+msgstr ""
+
+#: src/pages/Logs.jsx:187
+msgid "Logs cleared"
+msgstr ""
+
+#. translators: %s: log status filter, e.g. Failed
+#: src/pages/Logs.jsx:195
+#, js-format
+msgid "All \"%s\" log entries will be removed. Failed rows that were never sent can't be retried after this."
+msgstr ""
+
+#: src/pages/Logs.jsx:195
+msgid "All log entries will be removed. Failed rows that were never sent can't be retried after this."
+msgstr ""
+
+#: src/pages/Settings.jsx:11
+#: src/pages/Settings.jsx:12
+#: src/pages/Settings.jsx:29
+msgid "General"
+msgstr ""
+
+#: src/pages/Settings.jsx:20
+msgid "Settings saved"
+msgstr ""
+
+#: src/pages/Settings.jsx:29
+msgid "Delivery, retries and formatting"
+msgstr ""
+
+#: src/pages/Settings.jsx:33
+#: src/pages/Settings.jsx:36
+msgid "Automatic retry"
+msgstr ""
+
+#: src/pages/Settings.jsx:34
+msgid "If Google is unreachable, retry failed rows in the background (5, 10, 15… minutes)."
+msgstr ""
+
+#: src/pages/Settings.jsx:41
+msgid "Maximum retries"
+msgstr ""
+
+#: src/pages/Settings.jsx:42
+msgid "After this many attempts, the row is marked as failed for manual retry."
+msgstr ""
+
+#: src/pages/Settings.jsx:49
+msgid "Keep successful logs for"
+msgstr ""
+
+#: src/pages/Settings.jsx:50
+msgid "Failed entries are never purged automatically."
+msgstr ""
+
+#: src/pages/Settings.jsx:54
+msgid "days"
+msgstr ""
+
+#: src/pages/Settings.jsx:59
+#: src/pages/Settings.jsx:62
+msgid "Protect against formula injection"
+msgstr ""
+
+#: src/pages/Settings.jsx:60
+msgid "Values starting with =, +, - or @ are stored as plain text. Also keeps phone numbers like +8801… intact."
+msgstr ""
+
+#: src/pages/Settings.jsx:66
+msgid "Date & time format"
+msgstr ""
+
+#: src/pages/Settings.jsx:67
+msgid "Used by the {date}, {time} and {datetime} smart tags (PHP date format)."
+msgstr ""
+
+#: src/pages/Settings.jsx:70
+msgid "Date format"
+msgstr ""
+
+#: src/pages/Settings.jsx:71
+msgid "Time format"
+msgstr ""
+
+#: src/pages/Settings.jsx:76
+msgid "Save settings"
+msgstr ""
+
+#: src/pages/Settings.jsx:88
+msgid "Fine-tune delivery, retries and formatting. App accounts live under"
+msgstr ""
