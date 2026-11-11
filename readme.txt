@@ -50,6 +50,18 @@ QuickSheet connects your WordPress forms to the apps you already use. Every inte
 * Spreadsheet formula-injection protection (values starting with = + - @ are stored as text).
 * No tracking, no ads, no calls home.
 
+== Development ==
+
+Public source code repository:
+https://github.com/wpbranddigital/quicksheet
+
+Build Instructions:
+
+1. npm install
+2. npm run build
+3. npm run start (development)
+quicksheet is built using @wordpress/scripts.
+
 == External services ==
 
 This plugin connects to third-party services **only after an administrator connects an account and creates an integration**. Nothing is sent anywhere just by installing or activating the plugin.
@@ -133,6 +145,11 @@ Yes. The React source is in the `src/` folder. Run `npm install && npm run build
 * `qswp_http_timeout`, `qswp_graph_api_version` (filters).
 
 == Changelog ==
+
+= 1.0.0 =
+* Initial release: Contact Form 7, WPForms and Elementor Forms triggers; Google Sheets, WhatsApp, Discord and Facebook Page actions; conditional logic; logs with automatic retry.
+
+== Upgrade Notice ==
 
 = 1.0.0 =
 * Initial release: Contact Form 7, WPForms and Elementor Forms triggers; Google Sheets, WhatsApp, Discord and Facebook Page actions; conditional logic; logs with automatic retry.
